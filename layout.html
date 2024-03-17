@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,p,nav,aside,.div,main,.heading,footer, .container {
+            border: 5px ridge rgb(158, 9, 123);
+            padding: 20px;
+            margin: 10px;
+            background-color: beige;        
+        }
+        .logo{
+
+            height: 30px;
+            width: 70px;
+        }
+        aside{
+            height: 399px;
+            width: 300px;
+        }
+        .div{
+            height: 300px;
+            width: 200px;
+        }
+        .heading{
+            height: 0px;
+            width: 500px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            width:999px;
+        }
+        nav{
+            width: 600px;
+        }
+        .img {
+            display:flex;
+            flex-wrap: wrap;
+        }
+        main{
+            height: 400px;
+            width: 600px;
+           
+        }
+        img{
+            height: 100px;
+            width:150px;
+        }
+        .container{
+            height: min-content;
+            width: min-content;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        footer{
+            width: 970px;
+        }
+        button{
+            height: 40px;
+            width: 160px;
+            background-color: rgb(228, 150, 185);
+        }
+        .space {
+            margin: 5px;
+            margin-left: 26px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p class="logo"></p>
+            <nav></nav>
+        </header>
+        <aside>
+            <div class="div"></div>
+            <button>SUBMIT</button>
+        </aside>
+        <main clas="flex">
+            <p class="heading"></p>
+            <div class="img">
+                <img src="./apple1.jpg" class="space">
+                <img src="./apple2.jpg" class="space">
+                <img src="./apple2.jpg" class="space">
+                <img src="./apple3.jpg" class="space">
+                <img src="./apple1.jpg" class="space">
+                <img src="./apple2.jpg" class="space">
+                <img src="./apple3.jpg" class="space">
+                <img src="./apple1.jpg" class="space">
+                <img src="./apple2.jpg" class="space">
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
